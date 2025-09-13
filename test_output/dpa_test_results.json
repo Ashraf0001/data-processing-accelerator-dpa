@@ -1,0 +1,283 @@
+{
+  "test_start": "2025-09-13 18:58:42",
+  "tests": [
+    {
+      "description": "Show DPA help",
+      "command": "dpa --help",
+      "success": true,
+      "duration": 0.04,
+      "stdout": "usage: dpa [-h] {filter,f,select,s,convert,c,profile,p} ...\n\nData Processing Accelerator (Rust + Polars)\n\npositional arguments:\n  {filter,f,select,s,convert,c,profile,p}\n    filter (f)          Filter rows and optionally select columns\n    select (s)          Select columns\n    convert (c)         Convert between CSV/Parquet\n    profile (p)         Simple profile\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Show filter command help",
+      "command": "dpa filter --help",
+      "success": true,
+      "duration": 0.05,
+      "stdout": "usage: dpa filter [-h] -w WHERE [-s SELECT] -o OUTPUT input\n\npositional arguments:\n  input\n\noptions:\n  -h, --help            show this help message and exit\n  -w WHERE, --where WHERE\n  -s SELECT, --select SELECT\n  -o OUTPUT, --output OUTPUT\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Show select command help",
+      "command": "dpa select --help",
+      "success": true,
+      "duration": 0.04,
+      "stdout": "usage: dpa select [-h] -c COLUMNS -o OUTPUT input\n\npositional arguments:\n  input\n\noptions:\n  -h, --help            show this help message and exit\n  -c COLUMNS, --columns COLUMNS\n  -o OUTPUT, --output OUTPUT\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Show convert command help",
+      "command": "dpa convert --help",
+      "success": true,
+      "duration": 0.03,
+      "stdout": "usage: dpa convert [-h] input output\n\npositional arguments:\n  input\n  output\n\noptions:\n  -h, --help  show this help message and exit\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Show profile command help",
+      "command": "dpa profile --help",
+      "success": true,
+      "duration": 0.03,
+      "stdout": "usage: dpa profile [-h] input\n\npositional arguments:\n  input\n\noptions:\n  -h, --help  show this help message and exit\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile customers dataset",
+      "command": "dpa profile test_data/customers.csv",
+      "success": true,
+      "duration": 0.13,
+      "stdout": "unique:country: 10\nnulls:industry: 0\nnulls:country: 0\nrows: 10000\nunique:industry: 7\nnulls:credit_score: 0\nnulls:is_active: 0\nmin:credit_score: 300\ndtype:email: String\ndtype:registration_date: String\nmean:annual_revenue: 5017378.7342\ndtype:segment: String\ndtype:credit_score: Int64\nunique:email: 10000\nnulls:name: 0\ndtype:customer_id: String\nmemory_mb: 0.85\nmax:employee_count: 5000\nmean:employee_count: 2499.1094\ndtype:last_login: String\nnulls:last_login: 0\nnulls:customer_id: 0\nunique:is_active: 2\nunique:credit_score: 551\ntotal_nulls: 0\nnulls:email: 0\nmin:is_active: 0\nmean:is_active: 0.499\nstd:credit_score: 158.51813692156273\nmax:credit_score: 850\ndtype:name: String\ndtype:industry: String\ndtype:is_active: Boolean\nmin:employee_count: 10\nunique:segment: 4\nunique:customer_id: 10000\nunique:registration_date: 1066\nnulls:annual_revenue: 0\nstd:employee_count: 1445.9032635195156\nunique:employee_count: 4280\nmax:is_active: 1\nmean:credit_score: 572.5383\nnulls:registration_date: 0\nnull_percentage: 0.00\nmin:annual_revenue: 102252\nmax:annual_revenue: 9998163\nstd:annual_revenue: 2860727.270162387\nnulls:employee_count: 0\ndtype:annual_revenue: Int64\ndtype:country: String\nunique:name: 10000\ndtype:employee_count: Int64\nunique:annual_revenue: 9999\nstd:is_active: 0.5000240018241524\ncolumns: 12\nnulls:segment: 0\nunique:last_login: 31\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile products dataset",
+      "command": "dpa profile test_data/products.csv",
+      "success": true,
+      "duration": 0.05,
+      "stdout": "min:weight: 0.1\nunique:is_digital: 2\nmax:reorder_level: 100\nnulls:brand: 0\nstd:price: 286.4575010691093\nnulls:weight: 0\nmax:stock_quantity: 998\nnulls:is_digital: 0\ndtype:review_count: Int64\ndtype:brand: String\nunique:cost: 990\nmax:review_count: 1000\nrows: 1000\nunique:product_id: 1000\ndtype:name: String\nunique:weight: 901\nunique:review_count: 635\nstd:stock_quantity: 287.71187539314786\nmemory_mb: 0.11\ndtype:cost: Float64\nunique:launch_date: 549\ndtype:product_id: String\nmax:cost: 686.69\nunique:rating: 41\nmean:price: 503.90959999999995\nmax:rating: 5\nmax:price: 997.69\nmax:weight: 49.98\nstd:reorder_level: 26.331093358945\nnulls:name: 0\ndtype:category: String\nstd:cost: 155.0203756445422\nstd:is_digital: 0.49984982729800936\nunique:brand: 8\nnulls:reorder_level: 0\nmean:reorder_level: 54.957\nunique:dimensions: 1000\nunique:price: 995\nstd:review_count: 291.7166326158739\nmax:is_digital: 1\nmin:price: 11.3\ndtype:launch_date: String\nnulls:rating: 0\nstd:rating: 1.1429807369177158\nunique:name: 1000\ndtype:dimensions: String\nmean:stock_quantity: 512.891\nnulls:review_count: 0\nunique:category: 8\ndtype:supplier_id: String\nnulls:category: 0\nmin:cost: 4.22\ndtype:stock_quantity: Int64\nmean:cost: 246.5253\nmin:stock_quantity: 0\nmin:review_count: 0\nmin:is_digital: 0\nunique:stock_quantity: 633\ndtype:price: Float64\nmean:rating: 3.0488000000000004\nnulls:cost: 0\nunique:reorder_level: 91\nnulls:price: 0\ndtype:weight: Float64\nmin:reorder_level: 10\nunique:supplier_id: 50\nnulls:supplier_id: 0\nnulls:launch_date: 0\nmin:rating: 1\ndtype:is_digital: Boolean\nnull_percentage: 0.00\nstd:weight: 14.033568290882931\nnulls:dimensions: 0\ntotal_nulls: 0\nmean:is_digital: 0.52\ndtype:rating: Float64\ndtype:reorder_level: Int64\nmean:weight: 24.39621\nmean:review_count: 492.957\nnulls:product_id: 0\nnulls:stock_quantity: 0\ncolumns: 15\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile transactions dataset",
+      "command": "dpa profile test_data/transactions.csv",
+      "success": true,
+      "duration": 0.38,
+      "stdout": "nulls:customer_id: 0\ndtype:product_id: String\nmax:discount_rate: 0.3\nmean:unit_price: 504.44161260000004\nunique:discount_rate: 301\ndtype:payment_method: String\nunique:payment_method: 5\nnulls:return_reason: 47462\nunique:customer_id: 9929\nunique:product_id: 1000\nnulls:payment_method: 0\nnulls:channel: 0\ncolumns: 15\nnulls:is_return: 0\nstd:quantity: 2.8706363843344946\nrows: 50000\nnulls:unit_price: 0\nmax:total_amount: 11905.1\nunique:channel: 4\ndtype:transaction_id: String\nmin:quantity: 1\ndtype:discount_rate: Float64\nnulls:final_amount: 0\nmean:total_amount: 2767.8246962\nmemory_mb: 5.39\nunique:transaction_id: 50000\nstd:final_amount: 2242.464654985385\nunique:is_return: 2\ndtype:return_reason: String\nmin:discount_rate: 0\nmean:is_return: 0.02436\ndtype:region: String\nmin:is_return: 0\nnulls:region: 0\nnulls:product_id: 0\nmax:discount_amount: 3073.28\nnulls:quantity: 0\ndtype:discount_amount: Float64\nnulls:discount_rate: 0\nmin:final_amount: 7.36\nmean:quantity: 5.4966\nmin:unit_price: 9.23\nnulls:transaction_id: 0\nstd:unit_price: 294.5048097504909\ndtype:quantity: Int64\nunique:transaction_date: 366\ndtype:channel: String\nnulls:discount_amount: 0\nnulls:transaction_date: 0\nunique:total_amount: 46539\nstd:discount_amount: 318.69086145025983\nunique:unit_price: 39750\ndtype:final_amount: Float64\nmax:final_amount: 11774\nunique:region: 5\nmean:final_amount: 2643.034395\nunique:discount_amount: 13563\nstd:is_return: 0.15416570870759433\ndtype:unit_price: Float64\nunique:final_amount: 47177\nunique:return_reason: 5\nmax:unit_price: 1192.56\ndtype:customer_id: String\nstd:total_amount: 2324.599040006694\ndtype:total_amount: Float64\nnull_percentage: 6.33\nmin:discount_amount: 0\ndtype:transaction_date: String\ntotal_nulls: 47462\ndtype:is_return: Boolean\nmax:is_return: 1\nnulls:total_amount: 0\nmin:total_amount: 9.23\nunique:quantity: 10\nmean:discount_rate: 0.0452779\nstd:discount_rate: 0.08387742449572948\nmean:discount_amount: 124.79030120000002\nmax:quantity: 10\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile employees dataset",
+      "command": "dpa profile test_data/employees.csv",
+      "success": true,
+      "duration": 0.05,
+      "stdout": "unique:position: 5\nmean:salary: 67124.502\nmax:years_experience: 20\nnulls:email: 0\nrows: 500\ndtype:name: String\nunique:manager_id: 51\nmean:years_experience: 9.416\nnulls:name: 0\nunique:email: 500\ntotal_nulls: 112\ndtype:is_active: Boolean\nmin:performance_score: 1\ndtype:email: String\nnulls:department: 0\ndtype:employee_id: String\nunique:employee_id: 500\nstd:salary: 35626.73601266088\nnulls:hire_date: 0\ndtype:location: String\nunique:name: 500\nmax:performance_score: 5\nstd:is_active: 0.5001001903626927\ndtype:manager_id: String\ndtype:department: String\ncolumns: 12\ndtype:hire_date: String\nmemory_mb: 0.04\ndtype:position: String\nmax:is_active: 1\ndtype:years_experience: Int64\nstd:years_experience: 5.943196713415154\nnulls:employee_id: 0\nnull_percentage: 1.87\nunique:years_experience: 21\nmean:is_active: 0.48\ndtype:performance_score: Float64\nunique:performance_score: 41\nmin:years_experience: 0\nnulls:location: 0\nnulls:is_active: 0\nmin:is_active: 0\nunique:salary: 499\nunique:is_active: 2\nstd:performance_score: 1.1634716035832973\nnulls:years_experience: 0\nnulls:manager_id: 112\nnulls:performance_score: 0\nunique:department: 7\nnulls:position: 0\nmax:salary: 148427\nmean:performance_score: 2.9953999999999996\nunique:hire_date: 440\nunique:location: 6\nnulls:salary: 0\ndtype:salary: Int64\nmin:salary: 20010\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile sales dataset",
+      "command": "dpa profile test_data/sales.csv",
+      "success": true,
+      "duration": 0.15,
+      "stdout": "max:units_sold: 100\nnulls:region: 0\nunique:customer_type: 3\nnulls:discount_applied: 0\nnulls:customer_type: 0\ndtype:promotion_id: String\nmin:discount_applied: 0\nstd:units_sold: 28.832198373972858\nmax:discount_applied: 1\ndtype:units_sold: Int64\nstd:discount_applied: 0.500007566645414\nmin:sales_amount: 1002\ntotal_nulls: 17399\ndtype:discount_applied: Boolean\nunique:sales_amount: 13458\ndtype:date: String\nunique:date: 366\nunique:region: 5\nunique:promotion_id: 21\ndtype:sales_amount: Float64\nnulls:promotion_id: 17399\nunique:units_sold: 100\nunique:sales_rep: 50\nmemory_mb: 1.55\nnull_percentage: 7.73\nmean:sales_amount: 6204.852548\nunique:discount_applied: 2\nmax:sales_amount: 14998.5\ndtype:product: String\nnulls:sales_amount: 0\ncolumns: 9\nstd:sales_amount: 3121.262227948644\nnulls:units_sold: 0\ndtype:region: String\nmin:units_sold: 1\nmean:units_sold: 50.43748\nnulls:sales_rep: 0\nmean:discount_applied: 0.49844\ndtype:sales_rep: String\nnulls:product: 0\nrows: 25000\ndtype:customer_type: String\nnulls:date: 0\nunique:product: 100\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile web_analytics dataset",
+      "command": "dpa profile test_data/web_analytics.csv",
+      "success": true,
+      "duration": 0.7,
+      "stdout": "max:conversion: 1\nunique:user_id: 9998\nnull_percentage: 6.15\nnulls:browser: 0\nunique:conversion: 2\nnulls:campaign_id: 79983\ntotal_nulls: 79983\nnulls:country: 0\nunique:country: 10\ndtype:device: String\nunique:browser: 5\nunique:session_duration: 3591\ndtype:page_views: Int64\ndtype:conversion: Boolean\nunique:timestamp: 98131\nnulls:timestamp: 0\nnulls:conversion: 0\nrows: 100000\ndtype:session_duration: Int64\nmin:page_views: 1\nnulls:page: 0\nnulls:traffic_source: 0\nmax:bounce_rate: 0.9999996613950825\nstd:page_views: 5.762326694937506\nnulls:session_duration: 0\nunique:campaign_id: 51\nmemory_mb: 9.25\nnulls:page_views: 0\nnulls:device: 0\nunique:page: 8\nnulls:session_id: 0\nunique:device: 3\ndtype:browser: String\nmin:conversion: 0\nstd:conversion: 0.15820958947782537\ndtype:campaign_id: String\ndtype:user_id: String\nmax:page_views: 20\ndtype:timestamp: String\nmean:session_duration: 1809.45269\ndtype:bounce_rate: Float64\nmin:bounce_rate: 0.00005171086556732263\nnulls:user_id: 0\ndtype:page: String\ndtype:country: String\nmin:session_duration: 10\nmean:bounce_rate: 0.4982771619175114\nstd:session_duration: 1036.981324086615\nunique:page_views: 20\nstd:bounce_rate: 0.2880446497691364\nunique:bounce_rate: 100000\ndtype:traffic_source: String\nmean:page_views: 10.47757\ncolumns: 13\nmax:session_duration: 3600\nnulls:bounce_rate: 0\nunique:traffic_source: 6\nmean:conversion: 0.02569\ndtype:session_id: String\nunique:session_id: 100000\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter customers by Premium segment",
+      "command": "dpa filter test_data/customers.csv -w \"segment = 'Premium'\" -o test_output/customers_premium.csv",
+      "success": true,
+      "duration": 0.06,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter high-value transactions (>$1000)",
+      "command": "dpa filter test_data/transactions.csv -w \"final_amount > 1000\" -o test_output/transactions_high_value.csv",
+      "success": true,
+      "duration": 0.14,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter sales from 2024 onwards",
+      "command": "dpa filter test_data/sales.csv -w \"date >= '2024-01-01'\" -o test_output/sales_recent.csv",
+      "success": true,
+      "duration": 0.08,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter Engineering employees with salary > $80k",
+      "command": "dpa filter test_data/employees.csv -w \"department = 'Engineering' AND salary > 80000\" -o test_output/employees_engineering.csv",
+      "success": true,
+      "duration": 0.04,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Select basic customer information",
+      "command": "dpa select test_data/customers.csv -c 'customer_id,name,segment,country' -o test_output/customers_basic.csv",
+      "success": true,
+      "duration": 0.05,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Select transaction summary columns",
+      "command": "dpa select test_data/transactions.csv -c 'transaction_id,customer_id,product_id,final_amount,transaction_date' -o test_output/transactions_summary.csv",
+      "success": true,
+      "duration": 0.1,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Select product pricing information",
+      "command": "dpa select test_data/products.csv -c 'product_id,name,category,price,cost' -o test_output/products_pricing.csv",
+      "success": true,
+      "duration": 0.04,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Convert customers CSV to Parquet",
+      "command": "dpa convert test_data/customers.csv test_output/customers_converted.parquet",
+      "success": true,
+      "duration": 0.09,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Convert products Parquet to CSV",
+      "command": "dpa convert test_data/products.parquet test_output/products_converted.csv",
+      "success": true,
+      "duration": 0.05,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Convert transactions to Parquet",
+      "command": "dpa convert test_data/transactions.csv test_output/transactions_compressed.parquet",
+      "success": true,
+      "duration": 0.26,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter high-value transactions and select key columns",
+      "command": "dpa filter test_data/transactions.csv -w \"final_amount > 500\" -s \"transaction_id,customer_id,final_amount,transaction_date\" -o test_output/transactions_filtered_selected.csv",
+      "success": true,
+      "duration": 0.09,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter mobile sessions and convert to Parquet",
+      "command": "dpa filter test_data/web_analytics.csv -w \"device = 'Mobile'\" -o test_output/web_analytics_mobile.parquet",
+      "success": true,
+      "duration": 0.24,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Select sales summary and convert to Parquet",
+      "command": "dpa select test_data/sales.csv -c \"date,region,product,sales_amount\" -o test_output/sales_summary.parquet",
+      "success": true,
+      "duration": 0.07,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Profile large web analytics dataset (100k rows)",
+      "command": "dpa profile test_data/web_analytics.csv",
+      "success": true,
+      "duration": 0.7,
+      "stdout": "dtype:browser: String\ndtype:device: String\ndtype:country: String\nunique:country: 10\nnulls:timestamp: 0\nmax:bounce_rate: 0.9999996613950825\ndtype:campaign_id: String\ntotal_nulls: 79983\nmean:page_views: 10.47757\nunique:conversion: 2\ndtype:page_views: Int64\nunique:user_id: 9998\nmax:conversion: 1\ndtype:timestamp: String\nmean:conversion: 0.02569\nunique:campaign_id: 51\nnulls:page_views: 0\nrows: 100000\ndtype:bounce_rate: Float64\ndtype:traffic_source: String\ndtype:user_id: String\nnulls:bounce_rate: 0\nmax:page_views: 20\nstd:bounce_rate: 0.2880446497691364\ndtype:conversion: Boolean\ndtype:page: String\nunique:traffic_source: 6\nmin:session_duration: 10\nunique:browser: 5\nnulls:user_id: 0\nmemory_mb: 9.25\nunique:timestamp: 98131\nmean:bounce_rate: 0.4982771619175114\nnulls:browser: 0\nmax:session_duration: 3600\nnulls:session_duration: 0\nnulls:page: 0\nnulls:traffic_source: 0\nnulls:session_id: 0\ndtype:session_id: String\nnull_percentage: 6.15\nmean:session_duration: 1809.45269\nmin:conversion: 0\nnulls:device: 0\ndtype:session_duration: Int64\nnulls:conversion: 0\nunique:page: 8\nunique:bounce_rate: 100000\nunique:device: 3\nunique:session_duration: 3591\ncolumns: 13\nstd:session_duration: 1036.981324086615\nunique:page_views: 20\nstd:conversion: 0.15820958947782537\nnulls:country: 0\nmin:bounce_rate: 0.00005171086556732263\nmin:page_views: 1\nstd:page_views: 5.762326694937506\nunique:session_id: 100000\nnulls:campaign_id: 79983\n",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Filter large dataset by browser",
+      "command": "dpa filter test_data/web_analytics.csv -w \"browser = 'Chrome'\" -o test_output/web_analytics_chrome.csv",
+      "success": true,
+      "duration": 0.14,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Convert large transactions dataset (50k rows)",
+      "command": "dpa convert test_data/transactions.csv test_output/transactions_large.parquet",
+      "success": true,
+      "duration": 0.26,
+      "stdout": "",
+      "stderr": "",
+      "return_code": 0
+    },
+    {
+      "description": "Test with non-existent file",
+      "command": "dpa profile nonexistent.csv",
+      "success": false,
+      "duration": 0.04,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/bin/dpa\", line 12, in <module>\n    sys.exit(main())\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/console.py\", line 37, in main\n    out = dpa_profile(args.input)\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/__init__.py\", line 29, in profile\n    return dict(profile_py(str(input)))\nRuntimeError: No such file or directory (os error 2): nonexistent.csv: 'csv scan' failed: 'slice' input failed to resolve\n",
+      "return_code": 1
+    },
+    {
+      "description": "Test with invalid column in filter",
+      "command": "dpa filter test_data/customers.csv -w \"invalid_column > 100\" -o test_output/invalid.csv",
+      "success": false,
+      "duration": 0.04,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/bin/dpa\", line 12, in <module>\n    sys.exit(main())\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/console.py\", line 30, in main\n    dpa_filter(args.input, args.where, cols, args.output)\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/__init__.py\", line 17, in filter\n    out = filter_py(str(input), str(where), list(select) if select else None, output)\nRuntimeError: not found: unable to find column \"invalid_column\"; valid columns: [\"customer_id\", \"name\", \"email\", \"segment\", \"country\", \"industry\", \"registration_date\", \"annual_revenue\", \"employee_count\", \"is_active\", \"credit_score\", \"last_login\"]: 'filter' failed\n",
+      "return_code": 1
+    },
+    {
+      "description": "Test with invalid output format",
+      "command": "dpa convert test_data/customers.csv test_output/invalid.xyz",
+      "success": false,
+      "duration": 0.05,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/bin/dpa\", line 12, in <module>\n    sys.exit(main())\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/console.py\", line 35, in main\n    dpa_convert(args.input, args.output)\n  File \"/Users/ashraf96/Desktop/Rust /dpa-full-regenerated/python/venv/lib/python3.10/site-packages/dpa/__init__.py\", line 26, in convert\n    return convert_py(str(input), str(output))\nRuntimeError: Unsupported output extension: xyz\n",
+      "return_code": 1
+    }
+  ],
+  "summary": {
+    "total_tests": 30,
+    "successful_tests": 27,
+    "failed_tests": 3,
+    "success_rate": 90.0,
+    "total_duration": 4.19,
+    "test_end": "2025-09-13 18:58:46"
+  }
+}

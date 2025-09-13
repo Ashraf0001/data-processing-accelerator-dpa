@@ -1,0 +1,41 @@
+{
+  "generated_at": "2025-09-13T18:55:58.758336",
+  "datasets": {
+    "customers": {
+      "rows": 10000,
+      "columns": 12,
+      "file_size_csv": "1.20 MB",
+      "file_size_parquet": "0.35 MB"
+    },
+    "products": {
+      "rows": 1000,
+      "columns": 15,
+      "file_size_csv": "0.11 MB",
+      "file_size_parquet": "0.06 MB"
+    },
+    "transactions": {
+      "rows": 50000,
+      "columns": 15,
+      "file_size_csv": "5.77 MB",
+      "file_size_parquet": "1.77 MB"
+    },
+    "employees": {
+      "rows": 500,
+      "columns": 12,
+      "file_size_csv": "0.05 MB",
+      "file_size_parquet": "0.02 MB"
+    },
+    "sales": {
+      "rows": 25000,
+      "columns": 9,
+      "file_size_csv": "1.71 MB",
+      "file_size_parquet": "0.22 MB"
+    },
+    "web_analytics": {
+      "rows": 100000,
+      "columns": 13,
+      "file_size_csv": "10.76 MB",
+      "file_size_parquet": "3.12 MB"
+    }
+  }
+}

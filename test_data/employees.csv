@@ -1,0 +1,501 @@
+employee_id,name,email,department,position,salary,hire_date,manager_id,location,is_active,performance_score,years_experience
+EMP_00001,Employee 1,employee1@company.com,HR,Junior,43745,2023-08-09,EMP_00032,Remote,True,1.1,1
+EMP_00002,Employee 2,employee2@company.com,Sales,Manager,143943,2025-01-28,,Tokyo,False,4.6,16
+EMP_00003,Employee 3,employee3@company.com,Operations,Senior,108971,2023-02-07,EMP_00049,London,False,1.0,4
+EMP_00004,Employee 4,employee4@company.com,Engineering,Junior,32590,2023-02-10,EMP_00020,Berlin,True,2.5,20
+EMP_00005,Employee 5,employee5@company.com,Engineering,Intern,31376,2024-02-07,EMP_00037,Remote,True,4.2,18
+EMP_00006,Employee 6,employee6@company.com,HR,Mid-level,64634,2025-08-05,EMP_00049,San Francisco,False,1.7,16
+EMP_00007,Employee 7,employee7@company.com,Marketing,Junior,37290,2021-02-06,EMP_00035,Berlin,False,2.1,0
+EMP_00008,Employee 8,employee8@company.com,Customer Service,Junior,38661,2024-07-06,EMP_00017,Berlin,False,1.0,11
+EMP_00009,Employee 9,employee9@company.com,Marketing,Mid-level,76237,2023-10-22,EMP_00041,San Francisco,False,3.3,16
+EMP_00010,Employee 10,employee10@company.com,Engineering,Manager,119661,2024-01-24,,Tokyo,True,2.2,9
+EMP_00011,Employee 11,employee11@company.com,Operations,Manager,93046,2024-03-04,,Remote,True,1.2,4
+EMP_00012,Employee 12,employee12@company.com,Operations,Junior,39478,2023-12-03,EMP_00003,Remote,True,2.9,12
+EMP_00013,Employee 13,employee13@company.com,HR,Manager,88503,2024-09-19,,San Francisco,True,1.2,9
+EMP_00014,Employee 14,employee14@company.com,Customer Service,Junior,37384,2023-06-18,EMP_00040,Remote,True,3.0,5
+EMP_00015,Employee 15,employee15@company.com,Customer Service,Manager,88772,2024-06-24,,San Francisco,True,1.9,20
+EMP_00016,Employee 16,employee16@company.com,Sales,Mid-level,42536,2025-03-01,EMP_00014,New York,True,2.3,7
+EMP_00017,Employee 17,employee17@company.com,Customer Service,Intern,21808,2023-12-27,EMP_00045,Tokyo,False,1.2,10
+EMP_00018,Employee 18,employee18@company.com,Sales,Intern,32936,2023-07-27,EMP_00033,London,False,2.0,17
+EMP_00019,Employee 19,employee19@company.com,Finance,Manager,137011,2025-06-05,,Remote,True,3.4,13
+EMP_00020,Employee 20,employee20@company.com,HR,Intern,33084,2021-09-05,EMP_00047,New York,False,1.5,5
+EMP_00021,Employee 21,employee21@company.com,Sales,Senior,87217,2024-02-08,EMP_00008,Berlin,False,1.1,8
+EMP_00022,Employee 22,employee22@company.com,Operations,Intern,25122,2025-01-22,EMP_00020,London,True,1.2,0
+EMP_00023,Employee 23,employee23@company.com,Engineering,Junior,40151,2023-08-22,EMP_00042,Berlin,False,3.5,12
+EMP_00024,Employee 24,employee24@company.com,Finance,Mid-level,53865,2021-11-06,EMP_00009,Berlin,True,2.7,19
+EMP_00025,Employee 25,employee25@company.com,Sales,Junior,30754,2021-04-20,EMP_00036,Remote,True,3.5,15
+EMP_00026,Employee 26,employee26@company.com,Marketing,Manager,141811,2023-07-10,,London,False,1.8,8
+EMP_00027,Employee 27,employee27@company.com,HR,Junior,39408,2023-12-08,EMP_00005,San Francisco,True,3.1,11
+EMP_00028,Employee 28,employee28@company.com,Finance,Senior,101465,2024-08-25,EMP_00045,Remote,False,4.2,6
+EMP_00029,Employee 29,employee29@company.com,Engineering,Senior,116995,2021-11-19,EMP_00004,Berlin,False,2.2,8
+EMP_00030,Employee 30,employee30@company.com,Sales,Junior,33830,2023-01-01,EMP_00048,San Francisco,True,1.6,17
+EMP_00031,Employee 31,employee31@company.com,Marketing,Senior,116660,2024-09-29,EMP_00004,Berlin,False,2.5,3
+EMP_00032,Employee 32,employee32@company.com,Marketing,Manager,136319,2023-04-21,,San Francisco,True,2.2,5
+EMP_00033,Employee 33,employee33@company.com,Finance,Intern,27716,2022-12-11,EMP_00022,London,True,2.3,3
+EMP_00034,Employee 34,employee34@company.com,Sales,Mid-level,62535,2021-08-15,EMP_00014,London,False,3.6,3
+EMP_00035,Employee 35,employee35@company.com,Engineering,Junior,46616,2024-09-03,EMP_00021,London,False,3.1,4
+EMP_00036,Employee 36,employee36@company.com,Sales,Junior,31581,2021-12-13,EMP_00050,Remote,False,3.2,4
+EMP_00037,Employee 37,employee37@company.com,Sales,Intern,26143,2023-07-20,EMP_00010,London,False,2.3,10
+EMP_00038,Employee 38,employee38@company.com,Engineering,Junior,43607,2024-07-03,EMP_00025,Tokyo,False,1.2,17
+EMP_00039,Employee 39,employee39@company.com,Finance,Senior,62962,2021-03-21,EMP_00006,Berlin,True,2.9,19
+EMP_00040,Employee 40,employee40@company.com,Operations,Manager,108566,2021-12-27,,San Francisco,False,2.3,10
+EMP_00041,Employee 41,employee41@company.com,HR,Mid-level,70518,2023-04-02,EMP_00015,San Francisco,False,1.2,12
+EMP_00042,Employee 42,employee42@company.com,Sales,Manager,83354,2022-09-29,,Tokyo,True,3.8,6
+EMP_00043,Employee 43,employee43@company.com,HR,Senior,114322,2024-05-17,EMP_00014,Tokyo,True,3.0,9
+EMP_00044,Employee 44,employee44@company.com,Operations,Senior,91688,2022-12-25,EMP_00038,Remote,False,1.5,15
+EMP_00045,Employee 45,employee45@company.com,Marketing,Intern,28065,2020-09-30,EMP_00048,London,True,3.8,6
+EMP_00046,Employee 46,employee46@company.com,Customer Service,Senior,89276,2022-02-26,EMP_00030,New York,False,4.6,0
+EMP_00047,Employee 47,employee47@company.com,HR,Mid-level,77475,2022-05-18,EMP_00003,Tokyo,False,1.9,3
+EMP_00048,Employee 48,employee48@company.com,Customer Service,Senior,83358,2021-06-11,EMP_00035,Tokyo,True,4.0,8
+EMP_00049,Employee 49,employee49@company.com,Engineering,Junior,45692,2021-01-26,EMP_00034,Berlin,True,3.2,8
+EMP_00050,Employee 50,employee50@company.com,Sales,Senior,113616,2020-11-18,EMP_00046,New York,False,2.5,2
+EMP_00051,Employee 51,employee51@company.com,Customer Service,Mid-level,67256,2024-03-02,EMP_00027,San Francisco,False,3.7,11
+EMP_00052,Employee 52,employee52@company.com,Marketing,Mid-level,52179,2024-12-23,EMP_00017,New York,True,1.9,13
+EMP_00053,Employee 53,employee53@company.com,Operations,Junior,31608,2023-10-11,EMP_00015,Remote,False,3.3,14
+EMP_00054,Employee 54,employee54@company.com,Engineering,Mid-level,51011,2022-03-05,EMP_00008,San Francisco,False,1.7,0
+EMP_00055,Employee 55,employee55@company.com,HR,Senior,87431,2020-12-12,EMP_00043,Tokyo,True,4.0,6
+EMP_00056,Employee 56,employee56@company.com,Operations,Senior,74076,2022-07-26,EMP_00008,New York,True,2.5,13
+EMP_00057,Employee 57,employee57@company.com,Customer Service,Manager,140026,2022-12-14,,New York,True,3.8,4
+EMP_00058,Employee 58,employee58@company.com,Operations,Manager,131468,2022-11-22,,New York,False,3.2,14
+EMP_00059,Employee 59,employee59@company.com,Customer Service,Intern,31821,2021-11-03,EMP_00008,Berlin,True,3.4,9
+EMP_00060,Employee 60,employee60@company.com,Sales,Mid-level,62076,2021-01-24,EMP_00025,Remote,False,1.1,11
+EMP_00061,Employee 61,employee61@company.com,Finance,Manager,87368,2023-04-04,,Remote,False,1.1,19
+EMP_00062,Employee 62,employee62@company.com,Customer Service,Mid-level,47183,2022-03-20,EMP_00037,Tokyo,False,2.5,13
+EMP_00063,Employee 63,employee63@company.com,Engineering,Senior,94052,2023-05-16,EMP_00045,Tokyo,False,2.1,18
+EMP_00064,Employee 64,employee64@company.com,Customer Service,Senior,64339,2021-06-25,EMP_00045,Tokyo,False,4.9,3
+EMP_00065,Employee 65,employee65@company.com,HR,Intern,31311,2025-07-28,EMP_00045,San Francisco,False,1.6,9
+EMP_00066,Employee 66,employee66@company.com,Engineering,Manager,129305,2023-01-03,,New York,False,4.3,12
+EMP_00067,Employee 67,employee67@company.com,Finance,Mid-level,70813,2023-07-26,EMP_00026,Remote,True,4.9,7
+EMP_00068,Employee 68,employee68@company.com,Finance,Manager,122514,2025-07-22,,Tokyo,True,1.8,4
+EMP_00069,Employee 69,employee69@company.com,Operations,Senior,68813,2022-03-17,EMP_00015,London,False,1.9,8
+EMP_00070,Employee 70,employee70@company.com,Customer Service,Junior,43228,2024-10-15,EMP_00019,Berlin,False,1.0,1
+EMP_00071,Employee 71,employee71@company.com,Engineering,Junior,34105,2022-03-01,EMP_00035,Tokyo,True,1.7,11
+EMP_00072,Employee 72,employee72@company.com,Operations,Junior,38196,2023-06-15,EMP_00041,London,True,4.7,5
+EMP_00073,Employee 73,employee73@company.com,Finance,Intern,29439,2023-05-12,EMP_00023,Berlin,True,1.9,4
+EMP_00074,Employee 74,employee74@company.com,Finance,Mid-level,73439,2024-08-17,EMP_00038,San Francisco,False,4.6,3
+EMP_00075,Employee 75,employee75@company.com,Engineering,Manager,141714,2023-02-16,,San Francisco,False,3.6,3
+EMP_00076,Employee 76,employee76@company.com,HR,Intern,25471,2024-05-15,EMP_00026,New York,False,3.4,10
+EMP_00077,Employee 77,employee77@company.com,Operations,Manager,141759,2021-11-05,,Berlin,True,1.3,4
+EMP_00078,Employee 78,employee78@company.com,Sales,Mid-level,40199,2023-03-22,EMP_00010,New York,True,4.2,8
+EMP_00079,Employee 79,employee79@company.com,Finance,Senior,97931,2025-04-23,EMP_00001,London,True,4.3,2
+EMP_00080,Employee 80,employee80@company.com,Finance,Intern,20135,2021-03-17,EMP_00031,New York,True,3.0,18
+EMP_00081,Employee 81,employee81@company.com,Sales,Manager,136405,2025-07-16,,Tokyo,True,2.3,17
+EMP_00082,Employee 82,employee82@company.com,Sales,Mid-level,58735,2023-11-10,EMP_00037,Remote,False,1.7,14
+EMP_00083,Employee 83,employee83@company.com,Marketing,Manager,142733,2025-06-07,,Remote,True,5.0,8
+EMP_00084,Employee 84,employee84@company.com,Sales,Mid-level,45425,2025-07-06,EMP_00050,Berlin,True,2.3,14
+EMP_00085,Employee 85,employee85@company.com,Engineering,Mid-level,56973,2025-06-23,EMP_00033,Berlin,False,3.8,15
+EMP_00086,Employee 86,employee86@company.com,Operations,Senior,65579,2021-03-12,EMP_00042,Remote,False,4.4,5
+EMP_00087,Employee 87,employee87@company.com,Marketing,Mid-level,40957,2023-05-10,EMP_00011,Berlin,False,1.9,18
+EMP_00088,Employee 88,employee88@company.com,Customer Service,Mid-level,57925,2025-04-30,EMP_00047,San Francisco,False,2.8,16
+EMP_00089,Employee 89,employee89@company.com,HR,Senior,99975,2024-12-29,EMP_00001,London,True,4.8,14
+EMP_00090,Employee 90,employee90@company.com,Operations,Mid-level,50605,2024-12-12,EMP_00048,London,False,3.0,15
+EMP_00091,Employee 91,employee91@company.com,Customer Service,Intern,24116,2023-12-20,EMP_00005,Remote,False,3.5,10
+EMP_00092,Employee 92,employee92@company.com,Finance,Manager,100605,2022-05-22,,Remote,False,4.2,12
+EMP_00093,Employee 93,employee93@company.com,Customer Service,Junior,43515,2022-07-27,EMP_00018,Remote,True,2.6,17
+EMP_00094,Employee 94,employee94@company.com,Engineering,Intern,24754,2022-11-23,EMP_00001,New York,False,4.1,6
+EMP_00095,Employee 95,employee95@company.com,Finance,Junior,42224,2023-07-21,EMP_00007,San Francisco,False,3.1,17
+EMP_00096,Employee 96,employee96@company.com,HR,Manager,94532,2024-09-23,,London,True,4.7,7
+EMP_00097,Employee 97,employee97@company.com,HR,Intern,32425,2025-03-14,EMP_00038,London,False,3.7,2
+EMP_00098,Employee 98,employee98@company.com,Customer Service,Manager,140465,2020-11-04,,New York,True,4.4,9
+EMP_00099,Employee 99,employee99@company.com,Marketing,Junior,48204,2022-12-15,EMP_00021,New York,True,4.1,7
+EMP_00100,Employee 100,employee100@company.com,Marketing,Manager,104711,2024-06-30,,Remote,True,1.1,20
+EMP_00101,Employee 101,employee101@company.com,Marketing,Manager,84872,2023-11-22,,New York,True,1.2,4
+EMP_00102,Employee 102,employee102@company.com,Engineering,Junior,30904,2021-07-10,EMP_00002,New York,True,2.3,15
+EMP_00103,Employee 103,employee103@company.com,Marketing,Mid-level,46122,2024-10-29,EMP_00045,Berlin,False,3.2,15
+EMP_00104,Employee 104,employee104@company.com,Engineering,Manager,121579,2024-05-25,,Berlin,True,1.8,0
+EMP_00105,Employee 105,employee105@company.com,Operations,Intern,28286,2024-08-09,EMP_00047,Berlin,False,3.7,0
+EMP_00106,Employee 106,employee106@company.com,Finance,Manager,81494,2024-01-30,,New York,True,4.0,13
+EMP_00107,Employee 107,employee107@company.com,Finance,Manager,123307,2022-05-10,,Berlin,True,1.4,11
+EMP_00108,Employee 108,employee108@company.com,HR,Manager,114575,2022-12-01,,Berlin,True,1.3,2
+EMP_00109,Employee 109,employee109@company.com,Operations,Mid-level,79673,2022-12-28,EMP_00024,New York,True,4.3,2
+EMP_00110,Employee 110,employee110@company.com,Marketing,Junior,44790,2020-10-26,EMP_00024,Remote,True,1.5,0
+EMP_00111,Employee 111,employee111@company.com,Customer Service,Senior,98027,2022-06-18,EMP_00006,Berlin,False,3.6,13
+EMP_00112,Employee 112,employee112@company.com,HR,Senior,87892,2023-09-09,EMP_00012,New York,True,3.3,9
+EMP_00113,Employee 113,employee113@company.com,Operations,Mid-level,75056,2025-05-19,EMP_00037,London,True,3.9,14
+EMP_00114,Employee 114,employee114@company.com,Marketing,Manager,113180,2024-05-23,,Tokyo,True,3.2,5
+EMP_00115,Employee 115,employee115@company.com,Customer Service,Mid-level,49145,2022-11-25,EMP_00010,San Francisco,False,3.0,17
+EMP_00116,Employee 116,employee116@company.com,Operations,Junior,38120,2023-07-13,EMP_00048,San Francisco,True,4.9,5
+EMP_00117,Employee 117,employee117@company.com,Engineering,Mid-level,66953,2022-01-23,EMP_00001,Remote,False,2.9,3
+EMP_00118,Employee 118,employee118@company.com,Sales,Intern,24335,2023-04-15,EMP_00032,New York,False,1.5,2
+EMP_00119,Employee 119,employee119@company.com,Marketing,Manager,126156,2021-10-21,,London,False,4.1,0
+EMP_00120,Employee 120,employee120@company.com,Sales,Intern,33667,2024-01-07,EMP_00020,San Francisco,False,4.1,7
+EMP_00121,Employee 121,employee121@company.com,Engineering,Manager,116866,2025-04-29,,Tokyo,True,3.1,8
+EMP_00122,Employee 122,employee122@company.com,Operations,Mid-level,68761,2021-08-18,EMP_00010,London,True,1.1,0
+EMP_00123,Employee 123,employee123@company.com,HR,Senior,62852,2024-10-01,EMP_00006,London,True,3.3,17
+EMP_00124,Employee 124,employee124@company.com,Sales,Manager,87598,2021-02-25,,New York,True,2.5,10
+EMP_00125,Employee 125,employee125@company.com,HR,Manager,98986,2021-01-22,,London,False,4.0,14
+EMP_00126,Employee 126,employee126@company.com,Finance,Junior,43040,2024-02-11,EMP_00009,Berlin,True,2.6,7
+EMP_00127,Employee 127,employee127@company.com,Operations,Manager,122104,2025-01-09,,San Francisco,True,4.0,3
+EMP_00128,Employee 128,employee128@company.com,Customer Service,Mid-level,50811,2024-03-15,EMP_00020,Berlin,True,2.9,17
+EMP_00129,Employee 129,employee129@company.com,HR,Junior,34232,2021-06-03,EMP_00031,New York,True,4.3,8
+EMP_00130,Employee 130,employee130@company.com,Sales,Mid-level,45765,2021-12-16,EMP_00012,Remote,False,2.9,6
+EMP_00131,Employee 131,employee131@company.com,Customer Service,Manager,122067,2022-04-10,,Tokyo,True,3.3,19
+EMP_00132,Employee 132,employee132@company.com,Finance,Junior,34400,2023-04-25,EMP_00045,Berlin,False,4.5,4
+EMP_00133,Employee 133,employee133@company.com,Customer Service,Mid-level,78945,2023-01-04,EMP_00035,London,True,1.6,6
+EMP_00134,Employee 134,employee134@company.com,Marketing,Junior,47291,2021-12-03,EMP_00005,Remote,True,4.8,8
+EMP_00135,Employee 135,employee135@company.com,Marketing,Manager,133836,2024-06-23,,London,False,3.1,1
+EMP_00136,Employee 136,employee136@company.com,Marketing,Mid-level,47147,2021-05-10,EMP_00040,London,False,2.4,18
+EMP_00137,Employee 137,employee137@company.com,Finance,Senior,118889,2022-01-02,EMP_00027,London,True,1.6,2
+EMP_00138,Employee 138,employee138@company.com,Marketing,Mid-level,70345,2021-08-09,EMP_00004,Tokyo,False,3.4,8
+EMP_00139,Employee 139,employee139@company.com,Customer Service,Senior,111885,2022-06-29,EMP_00031,Tokyo,True,4.9,3
+EMP_00140,Employee 140,employee140@company.com,Marketing,Manager,148427,2021-11-15,,Berlin,True,3.8,5
+EMP_00141,Employee 141,employee141@company.com,Operations,Manager,108481,2021-08-05,,New York,False,2.2,7
+EMP_00142,Employee 142,employee142@company.com,Finance,Intern,23357,2023-04-17,EMP_00049,Tokyo,False,4.5,14
+EMP_00143,Employee 143,employee143@company.com,Sales,Intern,28331,2025-07-25,EMP_00008,London,True,3.8,17
+EMP_00144,Employee 144,employee144@company.com,Engineering,Senior,76370,2024-05-05,EMP_00023,London,True,1.7,8
+EMP_00145,Employee 145,employee145@company.com,Customer Service,Manager,144259,2020-11-04,,Berlin,False,2.0,5
+EMP_00146,Employee 146,employee146@company.com,Operations,Intern,33426,2025-03-02,EMP_00002,Tokyo,True,1.8,7
+EMP_00147,Employee 147,employee147@company.com,Finance,Mid-level,43267,2023-09-09,EMP_00002,Tokyo,False,2.3,4
+EMP_00148,Employee 148,employee148@company.com,Customer Service,Manager,141483,2025-02-14,,San Francisco,False,4.5,7
+EMP_00149,Employee 149,employee149@company.com,Engineering,Mid-level,75073,2024-12-19,EMP_00020,Remote,False,1.6,1
+EMP_00150,Employee 150,employee150@company.com,Marketing,Mid-level,51921,2024-09-04,EMP_00031,Tokyo,True,3.4,13
+EMP_00151,Employee 151,employee151@company.com,Engineering,Manager,111552,2024-02-12,,Remote,True,4.1,10
+EMP_00152,Employee 152,employee152@company.com,Sales,Senior,91901,2021-10-28,EMP_00012,London,False,3.1,3
+EMP_00153,Employee 153,employee153@company.com,Sales,Mid-level,70073,2022-05-15,EMP_00022,Remote,False,4.0,12
+EMP_00154,Employee 154,employee154@company.com,Marketing,Intern,34698,2021-08-14,EMP_00033,London,False,4.7,13
+EMP_00155,Employee 155,employee155@company.com,Operations,Manager,104346,2025-02-19,,Berlin,True,1.9,13
+EMP_00156,Employee 156,employee156@company.com,Sales,Manager,102578,2024-08-01,,Berlin,True,4.4,2
+EMP_00157,Employee 157,employee157@company.com,Sales,Manager,87521,2024-06-19,,Tokyo,False,2.6,0
+EMP_00158,Employee 158,employee158@company.com,Customer Service,Mid-level,71243,2025-02-02,EMP_00035,Berlin,True,3.5,10
+EMP_00159,Employee 159,employee159@company.com,Operations,Manager,146437,2024-05-02,,New York,False,4.6,9
+EMP_00160,Employee 160,employee160@company.com,Finance,Manager,126483,2024-09-09,,Tokyo,True,2.1,15
+EMP_00161,Employee 161,employee161@company.com,Customer Service,Senior,118862,2022-08-25,EMP_00023,Berlin,False,4.0,16
+EMP_00162,Employee 162,employee162@company.com,Engineering,Intern,25888,2023-06-06,EMP_00021,Berlin,True,4.8,16
+EMP_00163,Employee 163,employee163@company.com,HR,Mid-level,46456,2025-04-25,EMP_00023,Berlin,True,1.9,9
+EMP_00164,Employee 164,employee164@company.com,Finance,Junior,37066,2021-05-14,EMP_00044,New York,True,3.7,3
+EMP_00165,Employee 165,employee165@company.com,Engineering,Mid-level,43381,2020-12-21,EMP_00022,Berlin,False,1.9,13
+EMP_00166,Employee 166,employee166@company.com,Customer Service,Intern,31360,2024-06-30,EMP_00041,Tokyo,True,2.3,17
+EMP_00167,Employee 167,employee167@company.com,Engineering,Junior,33849,2024-09-22,EMP_00005,New York,True,1.2,2
+EMP_00168,Employee 168,employee168@company.com,Finance,Junior,40105,2025-05-09,EMP_00009,Tokyo,True,4.9,17
+EMP_00169,Employee 169,employee169@company.com,Engineering,Manager,141620,2022-05-23,,London,True,1.6,2
+EMP_00170,Employee 170,employee170@company.com,Marketing,Senior,63403,2023-08-22,EMP_00046,London,False,2.9,17
+EMP_00171,Employee 171,employee171@company.com,Marketing,Junior,42841,2021-05-26,EMP_00027,London,True,4.0,15
+EMP_00172,Employee 172,employee172@company.com,Sales,Junior,49641,2023-12-08,EMP_00042,Remote,False,3.0,17
+EMP_00173,Employee 173,employee173@company.com,HR,Mid-level,49702,2022-10-03,EMP_00009,New York,False,2.9,8
+EMP_00174,Employee 174,employee174@company.com,Finance,Manager,116860,2021-11-03,,Remote,True,1.9,0
+EMP_00175,Employee 175,employee175@company.com,HR,Senior,107455,2022-04-19,EMP_00042,San Francisco,True,1.1,9
+EMP_00176,Employee 176,employee176@company.com,Sales,Senior,113293,2024-04-26,EMP_00008,Tokyo,True,4.1,1
+EMP_00177,Employee 177,employee177@company.com,Marketing,Senior,114975,2023-01-25,EMP_00030,Tokyo,True,2.4,2
+EMP_00178,Employee 178,employee178@company.com,Marketing,Manager,132890,2022-11-26,,New York,True,3.6,11
+EMP_00179,Employee 179,employee179@company.com,Sales,Manager,127832,2021-10-02,,London,False,3.0,1
+EMP_00180,Employee 180,employee180@company.com,Engineering,Junior,34837,2022-08-26,EMP_00027,San Francisco,True,3.4,7
+EMP_00181,Employee 181,employee181@company.com,Sales,Mid-level,71612,2025-04-21,EMP_00048,London,True,4.0,6
+EMP_00182,Employee 182,employee182@company.com,HR,Senior,111854,2025-08-10,EMP_00014,Berlin,False,1.8,18
+EMP_00183,Employee 183,employee183@company.com,HR,Senior,111208,2021-05-25,EMP_00012,Tokyo,True,2.3,11
+EMP_00184,Employee 184,employee184@company.com,Sales,Manager,136659,2020-09-27,,Remote,False,1.7,12
+EMP_00185,Employee 185,employee185@company.com,HR,Junior,43004,2025-05-02,EMP_00021,London,True,2.0,11
+EMP_00186,Employee 186,employee186@company.com,Finance,Junior,38313,2022-06-17,EMP_00032,New York,False,2.8,5
+EMP_00187,Employee 187,employee187@company.com,Customer Service,Senior,97820,2022-04-14,EMP_00015,San Francisco,False,1.0,16
+EMP_00188,Employee 188,employee188@company.com,HR,Senior,83795,2023-12-11,EMP_00028,San Francisco,True,1.6,3
+EMP_00189,Employee 189,employee189@company.com,Finance,Intern,24150,2022-07-12,EMP_00043,London,True,3.5,12
+EMP_00190,Employee 190,employee190@company.com,Sales,Junior,33381,2021-01-25,EMP_00040,New York,True,4.1,15
+EMP_00191,Employee 191,employee191@company.com,Operations,Manager,92092,2021-04-21,,New York,True,4.3,4
+EMP_00192,Employee 192,employee192@company.com,Marketing,Intern,26575,2022-06-29,EMP_00010,New York,True,3.4,7
+EMP_00193,Employee 193,employee193@company.com,Marketing,Intern,34857,2023-09-21,EMP_00035,New York,True,4.6,8
+EMP_00194,Employee 194,employee194@company.com,Customer Service,Mid-level,51851,2023-06-25,EMP_00022,New York,False,1.2,8
+EMP_00195,Employee 195,employee195@company.com,Marketing,Mid-level,57644,2025-04-28,EMP_00039,Berlin,False,2.9,6
+EMP_00196,Employee 196,employee196@company.com,Sales,Mid-level,66839,2023-04-16,EMP_00036,Remote,False,1.2,13
+EMP_00197,Employee 197,employee197@company.com,Marketing,Junior,39810,2021-01-16,EMP_00028,Berlin,True,2.3,2
+EMP_00198,Employee 198,employee198@company.com,Operations,Senior,71058,2021-01-29,EMP_00042,Berlin,False,3.5,10
+EMP_00199,Employee 199,employee199@company.com,Finance,Senior,78031,2024-02-16,EMP_00026,London,False,3.0,14
+EMP_00200,Employee 200,employee200@company.com,Customer Service,Intern,29299,2024-02-10,EMP_00007,London,True,1.5,9
+EMP_00201,Employee 201,employee201@company.com,Operations,Manager,87302,2022-01-20,,New York,False,4.9,8
+EMP_00202,Employee 202,employee202@company.com,HR,Intern,34711,2021-12-16,EMP_00048,Berlin,True,2.0,18
+EMP_00203,Employee 203,employee203@company.com,Customer Service,Junior,45608,2024-07-04,EMP_00003,San Francisco,False,1.9,11
+EMP_00204,Employee 204,employee204@company.com,Marketing,Junior,31999,2021-05-27,EMP_00018,Remote,False,3.9,12
+EMP_00205,Employee 205,employee205@company.com,HR,Mid-level,76182,2022-07-23,EMP_00007,Berlin,False,3.5,5
+EMP_00206,Employee 206,employee206@company.com,Customer Service,Mid-level,44610,2023-03-11,EMP_00032,Tokyo,True,4.5,3
+EMP_00207,Employee 207,employee207@company.com,Sales,Mid-level,77895,2022-10-16,EMP_00028,London,False,3.1,15
+EMP_00208,Employee 208,employee208@company.com,Customer Service,Manager,104562,2024-04-20,,New York,True,2.4,12
+EMP_00209,Employee 209,employee209@company.com,Engineering,Junior,43562,2023-05-22,EMP_00013,Tokyo,True,2.6,1
+EMP_00210,Employee 210,employee210@company.com,Sales,Intern,29797,2021-04-29,EMP_00016,Remote,False,1.7,17
+EMP_00211,Employee 211,employee211@company.com,Finance,Senior,72775,2021-08-01,EMP_00012,Berlin,False,2.1,12
+EMP_00212,Employee 212,employee212@company.com,Finance,Senior,112298,2024-09-15,EMP_00011,Tokyo,False,2.1,18
+EMP_00213,Employee 213,employee213@company.com,Operations,Junior,39483,2023-04-02,EMP_00013,Tokyo,False,4.4,15
+EMP_00214,Employee 214,employee214@company.com,Customer Service,Senior,91746,2022-06-17,EMP_00043,New York,True,2.9,1
+EMP_00215,Employee 215,employee215@company.com,Customer Service,Manager,81757,2024-06-11,,Remote,True,4.2,10
+EMP_00216,Employee 216,employee216@company.com,Engineering,Mid-level,43087,2023-08-02,EMP_00049,New York,False,4.7,8
+EMP_00217,Employee 217,employee217@company.com,HR,Senior,93561,2021-01-26,EMP_00036,Tokyo,False,3.0,18
+EMP_00218,Employee 218,employee218@company.com,Sales,Junior,30662,2024-01-23,EMP_00011,San Francisco,True,3.6,15
+EMP_00219,Employee 219,employee219@company.com,Marketing,Manager,90982,2024-10-29,,London,False,1.1,16
+EMP_00220,Employee 220,employee220@company.com,Operations,Mid-level,67651,2024-02-01,EMP_00037,Tokyo,True,1.1,12
+EMP_00221,Employee 221,employee221@company.com,Operations,Junior,30557,2021-08-18,EMP_00036,Tokyo,True,1.9,8
+EMP_00222,Employee 222,employee222@company.com,Customer Service,Mid-level,43000,2024-11-12,EMP_00047,Berlin,True,4.7,9
+EMP_00223,Employee 223,employee223@company.com,HR,Junior,39074,2021-12-20,EMP_00018,New York,False,4.3,19
+EMP_00224,Employee 224,employee224@company.com,Engineering,Intern,20018,2025-06-17,EMP_00001,New York,False,5.0,4
+EMP_00225,Employee 225,employee225@company.com,Sales,Intern,22486,2021-12-12,EMP_00016,London,False,4.1,8
+EMP_00226,Employee 226,employee226@company.com,Operations,Mid-level,57777,2024-04-01,EMP_00046,Berlin,False,4.1,19
+EMP_00227,Employee 227,employee227@company.com,Finance,Mid-level,71417,2025-07-15,EMP_00016,San Francisco,False,1.8,1
+EMP_00228,Employee 228,employee228@company.com,Customer Service,Senior,90275,2025-01-17,EMP_00047,New York,False,4.7,8
+EMP_00229,Employee 229,employee229@company.com,Engineering,Manager,112237,2025-07-30,,Remote,True,2.2,0
+EMP_00230,Employee 230,employee230@company.com,HR,Intern,20168,2024-06-15,EMP_00006,San Francisco,False,2.8,19
+EMP_00231,Employee 231,employee231@company.com,HR,Manager,123354,2025-05-03,,London,True,1.1,15
+EMP_00232,Employee 232,employee232@company.com,Marketing,Manager,134594,2023-12-03,,San Francisco,True,2.3,5
+EMP_00233,Employee 233,employee233@company.com,Finance,Mid-level,68464,2022-07-21,EMP_00049,Remote,False,3.3,17
+EMP_00234,Employee 234,employee234@company.com,Operations,Intern,31180,2022-09-09,EMP_00043,Tokyo,False,2.4,19
+EMP_00235,Employee 235,employee235@company.com,Operations,Intern,31074,2021-02-22,EMP_00014,New York,False,2.5,1
+EMP_00236,Employee 236,employee236@company.com,Sales,Manager,94805,2022-08-21,,London,False,4.4,9
+EMP_00237,Employee 237,employee237@company.com,Engineering,Senior,116984,2022-03-16,EMP_00040,Remote,False,2.8,12
+EMP_00238,Employee 238,employee238@company.com,Engineering,Intern,26479,2021-04-26,EMP_00028,New York,False,3.5,2
+EMP_00239,Employee 239,employee239@company.com,HR,Mid-level,48439,2024-11-24,EMP_00005,San Francisco,False,2.1,5
+EMP_00240,Employee 240,employee240@company.com,Finance,Intern,24801,2024-04-12,EMP_00017,New York,False,2.1,18
+EMP_00241,Employee 241,employee241@company.com,Operations,Manager,110330,2022-04-27,,New York,False,4.6,5
+EMP_00242,Employee 242,employee242@company.com,Customer Service,Mid-level,67927,2024-02-27,EMP_00001,Tokyo,False,1.5,14
+EMP_00243,Employee 243,employee243@company.com,HR,Mid-level,41765,2024-07-18,EMP_00001,San Francisco,False,2.9,19
+EMP_00244,Employee 244,employee244@company.com,Sales,Junior,33183,2024-04-11,EMP_00028,Tokyo,False,3.7,0
+EMP_00245,Employee 245,employee245@company.com,Operations,Manager,109885,2023-08-18,,San Francisco,False,4.3,20
+EMP_00246,Employee 246,employee246@company.com,Finance,Senior,101096,2024-07-14,EMP_00004,New York,False,1.1,11
+EMP_00247,Employee 247,employee247@company.com,Finance,Junior,47261,2025-04-21,EMP_00020,New York,False,3.8,10
+EMP_00248,Employee 248,employee248@company.com,Sales,Manager,87038,2022-01-22,,Berlin,True,3.0,3
+EMP_00249,Employee 249,employee249@company.com,Operations,Junior,36999,2022-12-08,EMP_00037,London,True,1.8,13
+EMP_00250,Employee 250,employee250@company.com,Finance,Junior,46987,2023-09-09,EMP_00035,Berlin,True,4.7,17
+EMP_00251,Employee 251,employee251@company.com,Engineering,Intern,27674,2021-04-05,EMP_00050,Berlin,False,4.1,4
+EMP_00252,Employee 252,employee252@company.com,Operations,Manager,80768,2021-02-16,,Berlin,False,3.7,17
+EMP_00253,Employee 253,employee253@company.com,Engineering,Manager,98480,2025-05-08,,London,False,3.6,7
+EMP_00254,Employee 254,employee254@company.com,Finance,Intern,29227,2021-01-09,EMP_00016,Tokyo,False,2.1,2
+EMP_00255,Employee 255,employee255@company.com,Marketing,Senior,84833,2023-10-10,EMP_00042,Tokyo,False,4.8,6
+EMP_00256,Employee 256,employee256@company.com,HR,Senior,85583,2023-02-26,EMP_00032,San Francisco,False,5.0,4
+EMP_00257,Employee 257,employee257@company.com,Finance,Junior,36863,2022-11-02,EMP_00024,Tokyo,True,1.3,14
+EMP_00258,Employee 258,employee258@company.com,Sales,Junior,44378,2025-01-18,EMP_00027,Tokyo,False,5.0,9
+EMP_00259,Employee 259,employee259@company.com,Engineering,Intern,30153,2021-09-22,EMP_00036,Berlin,False,2.6,2
+EMP_00260,Employee 260,employee260@company.com,Marketing,Manager,105732,2022-04-23,,Tokyo,True,1.7,4
+EMP_00261,Employee 261,employee261@company.com,Marketing,Senior,70399,2023-11-02,EMP_00003,Remote,False,3.3,20
+EMP_00262,Employee 262,employee262@company.com,Finance,Senior,109954,2023-01-22,EMP_00030,London,True,3.7,4
+EMP_00263,Employee 263,employee263@company.com,Operations,Intern,31643,2025-03-19,EMP_00047,Tokyo,False,1.6,15
+EMP_00264,Employee 264,employee264@company.com,Operations,Junior,31005,2025-08-13,EMP_00026,Berlin,True,3.4,4
+EMP_00265,Employee 265,employee265@company.com,Sales,Manager,106153,2023-06-29,,Berlin,False,3.7,13
+EMP_00266,Employee 266,employee266@company.com,Finance,Mid-level,60583,2021-01-10,EMP_00035,Remote,False,2.9,16
+EMP_00267,Employee 267,employee267@company.com,Marketing,Junior,41141,2023-05-03,EMP_00012,London,True,3.4,17
+EMP_00268,Employee 268,employee268@company.com,Marketing,Intern,23289,2024-07-31,EMP_00023,London,False,3.2,7
+EMP_00269,Employee 269,employee269@company.com,Engineering,Junior,48128,2024-02-06,EMP_00038,Remote,False,4.4,17
+EMP_00270,Employee 270,employee270@company.com,Finance,Manager,144134,2023-06-23,,London,True,1.9,5
+EMP_00271,Employee 271,employee271@company.com,Marketing,Senior,78965,2023-02-07,EMP_00034,Tokyo,False,3.3,15
+EMP_00272,Employee 272,employee272@company.com,Sales,Manager,106498,2023-06-23,,San Francisco,True,5.0,10
+EMP_00273,Employee 273,employee273@company.com,Engineering,Junior,42719,2020-12-23,EMP_00037,New York,True,2.4,1
+EMP_00274,Employee 274,employee274@company.com,Sales,Junior,38902,2025-05-11,EMP_00039,San Francisco,True,1.9,0
+EMP_00275,Employee 275,employee275@company.com,Customer Service,Mid-level,59373,2024-12-31,EMP_00021,New York,True,3.6,15
+EMP_00276,Employee 276,employee276@company.com,Finance,Mid-level,65852,2023-08-10,EMP_00009,Tokyo,True,2.0,19
+EMP_00277,Employee 277,employee277@company.com,Operations,Junior,32608,2022-04-10,EMP_00019,Berlin,True,4.5,10
+EMP_00278,Employee 278,employee278@company.com,Customer Service,Intern,27408,2022-01-06,EMP_00027,Remote,False,3.8,19
+EMP_00279,Employee 279,employee279@company.com,Sales,Mid-level,55604,2022-11-16,EMP_00017,San Francisco,True,4.5,14
+EMP_00280,Employee 280,employee280@company.com,Operations,Junior,41865,2021-02-08,EMP_00034,Remote,False,5.0,0
+EMP_00281,Employee 281,employee281@company.com,Engineering,Mid-level,66514,2021-11-06,EMP_00032,New York,False,4.3,2
+EMP_00282,Employee 282,employee282@company.com,Engineering,Senior,64260,2022-05-31,EMP_00035,Remote,False,1.4,2
+EMP_00283,Employee 283,employee283@company.com,Finance,Junior,35782,2024-06-24,EMP_00001,San Francisco,False,1.5,17
+EMP_00284,Employee 284,employee284@company.com,Operations,Intern,20010,2020-11-02,EMP_00011,Tokyo,True,4.0,6
+EMP_00285,Employee 285,employee285@company.com,Customer Service,Junior,45590,2024-06-29,EMP_00043,Remote,False,4.3,7
+EMP_00286,Employee 286,employee286@company.com,HR,Intern,20649,2022-10-10,EMP_00026,Tokyo,False,3.7,9
+EMP_00287,Employee 287,employee287@company.com,Sales,Manager,135123,2021-06-06,,San Francisco,False,4.5,0
+EMP_00288,Employee 288,employee288@company.com,HR,Intern,29630,2024-08-24,EMP_00037,Tokyo,True,3.7,17
+EMP_00289,Employee 289,employee289@company.com,Customer Service,Manager,125697,2023-12-27,,London,False,3.3,12
+EMP_00290,Employee 290,employee290@company.com,Marketing,Manager,91492,2022-02-08,,New York,True,3.1,16
+EMP_00291,Employee 291,employee291@company.com,Customer Service,Junior,32104,2025-03-23,EMP_00037,New York,False,2.5,11
+EMP_00292,Employee 292,employee292@company.com,Engineering,Junior,46499,2025-07-05,EMP_00029,Remote,False,1.6,0
+EMP_00293,Employee 293,employee293@company.com,Finance,Senior,101839,2020-10-11,EMP_00034,London,True,3.8,2
+EMP_00294,Employee 294,employee294@company.com,Marketing,Junior,39769,2021-09-21,EMP_00025,Berlin,True,1.7,18
+EMP_00295,Employee 295,employee295@company.com,Marketing,Junior,35475,2024-02-19,EMP_00017,New York,False,4.6,19
+EMP_00296,Employee 296,employee296@company.com,Engineering,Junior,44944,2023-08-01,EMP_00005,San Francisco,True,2.3,10
+EMP_00297,Employee 297,employee297@company.com,Operations,Intern,20593,2021-09-26,EMP_00031,Berlin,False,5.0,19
+EMP_00298,Employee 298,employee298@company.com,Engineering,Intern,29115,2024-09-20,EMP_00035,London,False,2.6,4
+EMP_00299,Employee 299,employee299@company.com,Finance,Manager,83588,2025-01-04,,London,False,2.2,17
+EMP_00300,Employee 300,employee300@company.com,HR,Intern,32718,2025-01-03,EMP_00046,Remote,True,2.1,2
+EMP_00301,Employee 301,employee301@company.com,Engineering,Senior,89067,2021-06-12,EMP_00033,New York,False,4.1,13
+EMP_00302,Employee 302,employee302@company.com,HR,Manager,88576,2024-07-24,,New York,False,2.6,19
+EMP_00303,Employee 303,employee303@company.com,Operations,Mid-level,67670,2025-01-15,EMP_00008,Berlin,False,4.9,16
+EMP_00304,Employee 304,employee304@company.com,Sales,Junior,31135,2022-04-14,EMP_00032,New York,True,4.2,18
+EMP_00305,Employee 305,employee305@company.com,Customer Service,Senior,111727,2022-02-22,EMP_00047,Tokyo,True,4.4,15
+EMP_00306,Employee 306,employee306@company.com,Finance,Junior,31355,2024-08-16,EMP_00005,Berlin,False,2.5,8
+EMP_00307,Employee 307,employee307@company.com,Sales,Mid-level,75139,2023-02-07,EMP_00007,London,True,2.0,1
+EMP_00308,Employee 308,employee308@company.com,HR,Senior,107042,2025-04-16,EMP_00030,Tokyo,True,2.8,7
+EMP_00309,Employee 309,employee309@company.com,Sales,Junior,45209,2021-08-01,EMP_00026,San Francisco,True,4.6,14
+EMP_00310,Employee 310,employee310@company.com,Finance,Senior,64192,2025-06-04,EMP_00024,New York,False,3.9,19
+EMP_00311,Employee 311,employee311@company.com,HR,Intern,29103,2022-11-01,EMP_00050,Tokyo,True,3.7,4
+EMP_00312,Employee 312,employee312@company.com,Sales,Mid-level,45589,2023-05-20,EMP_00003,Berlin,False,3.3,12
+EMP_00313,Employee 313,employee313@company.com,HR,Senior,117882,2023-11-10,EMP_00013,Tokyo,True,4.2,3
+EMP_00314,Employee 314,employee314@company.com,Engineering,Intern,26562,2021-12-10,EMP_00039,Remote,False,1.9,4
+EMP_00315,Employee 315,employee315@company.com,HR,Intern,33092,2022-01-12,EMP_00033,Berlin,False,3.4,14
+EMP_00316,Employee 316,employee316@company.com,Marketing,Intern,20172,2023-11-22,EMP_00022,San Francisco,False,1.1,4
+EMP_00317,Employee 317,employee317@company.com,Engineering,Junior,39482,2024-02-04,EMP_00033,Remote,False,1.2,14
+EMP_00318,Employee 318,employee318@company.com,Marketing,Junior,35949,2022-05-18,EMP_00002,New York,True,2.9,17
+EMP_00319,Employee 319,employee319@company.com,Operations,Intern,22741,2024-09-29,EMP_00043,New York,True,2.1,2
+EMP_00320,Employee 320,employee320@company.com,Sales,Manager,88538,2024-10-17,,Remote,False,4.0,20
+EMP_00321,Employee 321,employee321@company.com,HR,Junior,41166,2020-12-30,EMP_00019,Remote,False,2.5,17
+EMP_00322,Employee 322,employee322@company.com,Engineering,Junior,38824,2021-11-21,EMP_00022,London,False,1.5,15
+EMP_00323,Employee 323,employee323@company.com,Operations,Junior,41825,2023-04-09,EMP_00046,San Francisco,False,2.8,7
+EMP_00324,Employee 324,employee324@company.com,Marketing,Intern,20762,2023-04-03,EMP_00037,Tokyo,True,3.0,2
+EMP_00325,Employee 325,employee325@company.com,Sales,Intern,32921,2024-05-01,EMP_00028,New York,True,1.1,10
+EMP_00326,Employee 326,employee326@company.com,Finance,Manager,95944,2021-07-17,,San Francisco,False,4.6,5
+EMP_00327,Employee 327,employee327@company.com,HR,Manager,118295,2022-07-03,,New York,True,2.1,2
+EMP_00328,Employee 328,employee328@company.com,Operations,Junior,42247,2024-09-11,EMP_00008,Berlin,True,1.5,13
+EMP_00329,Employee 329,employee329@company.com,Engineering,Intern,22475,2021-04-10,EMP_00044,London,True,2.5,2
+EMP_00330,Employee 330,employee330@company.com,Sales,Manager,126657,2021-09-03,,Remote,False,4.4,1
+EMP_00331,Employee 331,employee331@company.com,HR,Manager,83014,2022-04-15,,Tokyo,False,2.9,12
+EMP_00332,Employee 332,employee332@company.com,HR,Junior,34598,2022-05-20,EMP_00037,Tokyo,False,4.0,2
+EMP_00333,Employee 333,employee333@company.com,Marketing,Intern,23569,2022-08-10,EMP_00016,New York,True,4.7,9
+EMP_00334,Employee 334,employee334@company.com,Finance,Mid-level,59538,2023-02-19,EMP_00044,New York,False,1.8,12
+EMP_00335,Employee 335,employee335@company.com,HR,Mid-level,73627,2024-02-14,EMP_00032,London,False,1.7,17
+EMP_00336,Employee 336,employee336@company.com,Customer Service,Manager,109974,2024-03-12,,San Francisco,True,4.5,5
+EMP_00337,Employee 337,employee337@company.com,Operations,Senior,97962,2022-03-17,EMP_00003,Berlin,True,1.1,0
+EMP_00338,Employee 338,employee338@company.com,Finance,Mid-level,43592,2024-01-24,EMP_00013,San Francisco,False,4.4,0
+EMP_00339,Employee 339,employee339@company.com,Sales,Mid-level,70371,2023-10-02,EMP_00050,San Francisco,False,1.3,0
+EMP_00340,Employee 340,employee340@company.com,Finance,Junior,36794,2022-05-10,EMP_00004,Berlin,True,2.5,15
+EMP_00341,Employee 341,employee341@company.com,Engineering,Mid-level,79952,2021-10-27,EMP_00014,Remote,True,2.7,14
+EMP_00342,Employee 342,employee342@company.com,Finance,Junior,47829,2023-10-25,EMP_00004,Berlin,True,3.5,0
+EMP_00343,Employee 343,employee343@company.com,Operations,Intern,23728,2020-11-12,EMP_00012,Remote,True,4.9,15
+EMP_00344,Employee 344,employee344@company.com,Sales,Senior,84789,2021-02-06,EMP_00004,Tokyo,False,4.8,12
+EMP_00345,Employee 345,employee345@company.com,Marketing,Intern,23388,2024-08-10,EMP_00050,Tokyo,False,3.2,17
+EMP_00346,Employee 346,employee346@company.com,Finance,Intern,31347,2020-12-19,EMP_00004,Berlin,True,4.9,15
+EMP_00347,Employee 347,employee347@company.com,Sales,Junior,48167,2022-10-15,EMP_00040,Berlin,True,4.0,4
+EMP_00348,Employee 348,employee348@company.com,Finance,Junior,38176,2022-10-27,EMP_00018,Berlin,True,2.9,1
+EMP_00349,Employee 349,employee349@company.com,HR,Mid-level,50469,2021-05-18,EMP_00011,Tokyo,True,3.0,14
+EMP_00350,Employee 350,employee350@company.com,Finance,Manager,141780,2023-01-18,,Berlin,False,2.8,7
+EMP_00351,Employee 351,employee351@company.com,Sales,Junior,41829,2021-02-02,EMP_00043,San Francisco,False,3.1,6
+EMP_00352,Employee 352,employee352@company.com,Finance,Intern,24298,2024-03-01,EMP_00020,London,True,1.9,19
+EMP_00353,Employee 353,employee353@company.com,Marketing,Mid-level,60453,2022-05-26,EMP_00023,Remote,False,1.7,4
+EMP_00354,Employee 354,employee354@company.com,Marketing,Senior,76241,2025-01-04,EMP_00039,New York,False,1.1,15
+EMP_00355,Employee 355,employee355@company.com,Sales,Junior,45992,2023-03-15,EMP_00033,San Francisco,True,2.4,3
+EMP_00356,Employee 356,employee356@company.com,Marketing,Intern,30104,2023-07-29,EMP_00024,New York,False,4.6,8
+EMP_00357,Employee 357,employee357@company.com,Sales,Manager,92110,2022-07-08,,London,False,2.2,5
+EMP_00358,Employee 358,employee358@company.com,Engineering,Intern,31054,2021-02-25,EMP_00021,London,False,4.3,13
+EMP_00359,Employee 359,employee359@company.com,HR,Manager,142149,2021-11-24,,New York,True,3.2,15
+EMP_00360,Employee 360,employee360@company.com,Finance,Junior,48307,2023-02-12,EMP_00044,Tokyo,True,3.5,11
+EMP_00361,Employee 361,employee361@company.com,HR,Mid-level,45734,2020-12-24,EMP_00010,New York,False,3.5,2
+EMP_00362,Employee 362,employee362@company.com,Sales,Manager,92661,2024-05-28,,Berlin,False,2.7,6
+EMP_00363,Employee 363,employee363@company.com,HR,Mid-level,47248,2025-08-12,EMP_00026,New York,True,2.7,14
+EMP_00364,Employee 364,employee364@company.com,Operations,Junior,49000,2022-04-15,EMP_00017,London,False,2.0,8
+EMP_00365,Employee 365,employee365@company.com,Sales,Senior,78105,2021-09-17,EMP_00036,Berlin,False,4.7,2
+EMP_00366,Employee 366,employee366@company.com,Operations,Junior,45189,2024-02-09,EMP_00025,San Francisco,True,1.1,16
+EMP_00367,Employee 367,employee367@company.com,Operations,Senior,95807,2022-09-07,EMP_00024,London,True,1.5,19
+EMP_00368,Employee 368,employee368@company.com,Sales,Mid-level,57698,2021-12-13,EMP_00030,Tokyo,False,2.5,1
+EMP_00369,Employee 369,employee369@company.com,Finance,Senior,108259,2025-01-30,EMP_00039,London,False,3.4,1
+EMP_00370,Employee 370,employee370@company.com,Finance,Senior,74382,2020-12-17,EMP_00007,San Francisco,True,3.0,14
+EMP_00371,Employee 371,employee371@company.com,Marketing,Manager,111011,2025-07-20,,San Francisco,True,2.8,10
+EMP_00372,Employee 372,employee372@company.com,Engineering,Junior,36424,2025-03-01,EMP_00033,London,True,2.8,8
+EMP_00373,Employee 373,employee373@company.com,Sales,Senior,72778,2023-08-31,EMP_00010,London,True,2.1,16
+EMP_00374,Employee 374,employee374@company.com,Engineering,Senior,86568,2024-11-18,EMP_00006,San Francisco,False,4.8,2
+EMP_00375,Employee 375,employee375@company.com,Sales,Mid-level,59621,2023-06-30,EMP_00049,Berlin,True,3.4,8
+EMP_00376,Employee 376,employee376@company.com,Operations,Mid-level,75700,2023-06-10,EMP_00026,New York,True,1.6,3
+EMP_00377,Employee 377,employee377@company.com,Sales,Intern,24345,2020-09-23,EMP_00040,London,True,2.2,8
+EMP_00378,Employee 378,employee378@company.com,Customer Service,Manager,126022,2021-08-19,,San Francisco,False,3.6,16
+EMP_00379,Employee 379,employee379@company.com,Customer Service,Junior,37736,2023-03-10,EMP_00033,Berlin,False,1.3,11
+EMP_00380,Employee 380,employee380@company.com,HR,Junior,47267,2023-03-17,EMP_00026,London,True,2.3,18
+EMP_00381,Employee 381,employee381@company.com,Finance,Senior,89239,2022-08-15,EMP_00030,San Francisco,True,4.9,0
+EMP_00382,Employee 382,employee382@company.com,Customer Service,Intern,26746,2024-06-13,EMP_00047,Tokyo,False,2.5,8
+EMP_00383,Employee 383,employee383@company.com,Sales,Mid-level,67422,2023-12-09,EMP_00044,London,False,4.7,2
+EMP_00384,Employee 384,employee384@company.com,Customer Service,Manager,143445,2025-03-04,,London,True,1.4,7
+EMP_00385,Employee 385,employee385@company.com,HR,Intern,23796,2022-10-28,EMP_00038,San Francisco,True,4.7,9
+EMP_00386,Employee 386,employee386@company.com,Operations,Mid-level,72335,2022-03-03,EMP_00024,London,False,3.7,17
+EMP_00387,Employee 387,employee387@company.com,Engineering,Junior,43610,2023-06-02,EMP_00015,San Francisco,False,2.5,9
+EMP_00388,Employee 388,employee388@company.com,Customer Service,Manager,103949,2023-01-19,,Berlin,True,4.8,12
+EMP_00389,Employee 389,employee389@company.com,Sales,Manager,122220,2025-03-25,,San Francisco,False,3.8,3
+EMP_00390,Employee 390,employee390@company.com,HR,Intern,34333,2021-05-05,EMP_00046,Remote,False,3.7,0
+EMP_00391,Employee 391,employee391@company.com,Finance,Junior,31817,2024-02-18,EMP_00004,New York,True,1.7,13
+EMP_00392,Employee 392,employee392@company.com,HR,Mid-level,42263,2022-03-18,EMP_00029,London,True,3.3,18
+EMP_00393,Employee 393,employee393@company.com,Marketing,Intern,34127,2020-11-16,EMP_00002,Tokyo,True,4.1,3
+EMP_00394,Employee 394,employee394@company.com,Operations,Mid-level,54413,2024-12-02,EMP_00001,Remote,True,1.1,17
+EMP_00395,Employee 395,employee395@company.com,Finance,Intern,28399,2022-03-25,EMP_00029,Tokyo,True,2.0,2
+EMP_00396,Employee 396,employee396@company.com,Marketing,Manager,107221,2022-10-09,,San Francisco,True,2.5,4
+EMP_00397,Employee 397,employee397@company.com,Operations,Junior,46285,2024-01-08,EMP_00002,Remote,True,4.6,12
+EMP_00398,Employee 398,employee398@company.com,Customer Service,Intern,34755,2024-06-04,EMP_00038,Remote,True,1.4,8
+EMP_00399,Employee 399,employee399@company.com,Finance,Intern,32850,2021-11-13,EMP_00002,Berlin,False,1.4,11
+EMP_00400,Employee 400,employee400@company.com,Marketing,Manager,110127,2021-01-27,,Tokyo,True,3.6,6
+EMP_00401,Employee 401,employee401@company.com,Customer Service,Manager,143869,2023-08-20,,Berlin,True,4.2,18
+EMP_00402,Employee 402,employee402@company.com,Engineering,Senior,65934,2021-05-13,EMP_00008,San Francisco,False,2.3,20
+EMP_00403,Employee 403,employee403@company.com,Marketing,Intern,27265,2020-12-05,EMP_00005,London,False,1.0,12
+EMP_00404,Employee 404,employee404@company.com,Marketing,Intern,31261,2021-05-02,EMP_00029,San Francisco,True,2.3,2
+EMP_00405,Employee 405,employee405@company.com,Operations,Manager,114354,2024-12-28,,New York,False,2.0,12
+EMP_00406,Employee 406,employee406@company.com,Operations,Intern,24995,2024-06-27,EMP_00016,Remote,True,5.0,1
+EMP_00407,Employee 407,employee407@company.com,Customer Service,Senior,82931,2025-04-02,EMP_00021,London,True,3.2,19
+EMP_00408,Employee 408,employee408@company.com,HR,Senior,81417,2025-06-12,EMP_00042,London,False,3.1,6
+EMP_00409,Employee 409,employee409@company.com,HR,Senior,107066,2025-01-10,EMP_00025,New York,False,2.8,9
+EMP_00410,Employee 410,employee410@company.com,Customer Service,Intern,22689,2020-11-27,EMP_00006,Berlin,True,2.8,5
+EMP_00411,Employee 411,employee411@company.com,Operations,Intern,20477,2024-07-02,EMP_00022,Remote,True,2.3,8
+EMP_00412,Employee 412,employee412@company.com,Operations,Manager,146425,2024-02-27,,Berlin,True,3.8,12
+EMP_00413,Employee 413,employee413@company.com,Finance,Mid-level,48507,2021-07-30,EMP_00028,Berlin,True,1.8,13
+EMP_00414,Employee 414,employee414@company.com,Customer Service,Mid-level,48086,2024-09-04,EMP_00029,San Francisco,True,4.9,4
+EMP_00415,Employee 415,employee415@company.com,HR,Senior,95924,2025-01-22,EMP_00017,Berlin,True,3.4,0
+EMP_00416,Employee 416,employee416@company.com,Operations,Junior,35366,2024-01-26,EMP_00018,New York,True,3.9,5
+EMP_00417,Employee 417,employee417@company.com,Sales,Junior,38982,2023-11-04,EMP_00019,Remote,False,1.3,17
+EMP_00418,Employee 418,employee418@company.com,Marketing,Manager,104551,2022-01-21,,New York,True,4.9,17
+EMP_00419,Employee 419,employee419@company.com,Customer Service,Mid-level,55465,2022-10-31,EMP_00037,San Francisco,False,3.6,0
+EMP_00420,Employee 420,employee420@company.com,Finance,Junior,47753,2021-02-28,EMP_00004,San Francisco,True,4.7,13
+EMP_00421,Employee 421,employee421@company.com,Marketing,Intern,21895,2021-11-02,EMP_00008,New York,False,4.2,4
+EMP_00422,Employee 422,employee422@company.com,HR,Intern,34408,2024-09-04,EMP_00031,Tokyo,True,3.0,12
+EMP_00423,Employee 423,employee423@company.com,Finance,Senior,113232,2022-02-04,EMP_00017,Remote,False,4.3,11
+EMP_00424,Employee 424,employee424@company.com,Operations,Manager,125313,2021-12-29,,London,False,2.5,1
+EMP_00425,Employee 425,employee425@company.com,Finance,Manager,145598,2023-09-16,,San Francisco,True,3.7,10
+EMP_00426,Employee 426,employee426@company.com,Engineering,Junior,41170,2020-11-11,EMP_00019,London,False,3.4,17
+EMP_00427,Employee 427,employee427@company.com,Customer Service,Senior,70714,2025-01-21,EMP_00047,San Francisco,True,1.5,9
+EMP_00428,Employee 428,employee428@company.com,Finance,Junior,46922,2022-02-11,EMP_00029,New York,False,4.7,13
+EMP_00429,Employee 429,employee429@company.com,Customer Service,Mid-level,55463,2023-01-27,EMP_00034,London,False,2.2,13
+EMP_00430,Employee 430,employee430@company.com,Customer Service,Senior,62416,2022-04-11,EMP_00008,Berlin,True,4.6,15
+EMP_00431,Employee 431,employee431@company.com,Operations,Manager,137296,2023-08-03,,Tokyo,True,4.6,10
+EMP_00432,Employee 432,employee432@company.com,Finance,Intern,31916,2022-03-17,EMP_00026,Berlin,False,1.7,5
+EMP_00433,Employee 433,employee433@company.com,Marketing,Manager,85604,2023-03-04,,Berlin,False,4.5,8
+EMP_00434,Employee 434,employee434@company.com,Marketing,Mid-level,63276,2023-01-12,EMP_00004,Remote,True,4.0,12
+EMP_00435,Employee 435,employee435@company.com,Sales,Manager,80574,2025-04-01,,Berlin,True,3.4,14
+EMP_00436,Employee 436,employee436@company.com,Sales,Manager,117932,2025-07-01,,San Francisco,False,4.9,20
+EMP_00437,Employee 437,employee437@company.com,Marketing,Manager,99549,2021-12-22,,Berlin,False,1.9,9
+EMP_00438,Employee 438,employee438@company.com,Finance,Senior,117162,2025-02-02,EMP_00025,Tokyo,False,1.9,15
+EMP_00439,Employee 439,employee439@company.com,Engineering,Junior,42336,2024-07-12,EMP_00006,Berlin,False,4.7,14
+EMP_00440,Employee 440,employee440@company.com,Marketing,Junior,33724,2020-09-15,EMP_00030,San Francisco,True,1.4,7
+EMP_00441,Employee 441,employee441@company.com,Marketing,Manager,130366,2024-07-31,,Remote,False,2.9,1
+EMP_00442,Employee 442,employee442@company.com,Customer Service,Senior,82095,2022-11-18,EMP_00043,Tokyo,False,3.8,12
+EMP_00443,Employee 443,employee443@company.com,HR,Senior,90137,2021-07-11,EMP_00032,London,False,2.3,17
+EMP_00444,Employee 444,employee444@company.com,Operations,Senior,89187,2022-08-28,EMP_00033,San Francisco,False,4.0,3
+EMP_00445,Employee 445,employee445@company.com,Finance,Manager,101307,2021-09-29,,Tokyo,False,3.5,7
+EMP_00446,Employee 446,employee446@company.com,Engineering,Mid-level,75098,2023-03-12,EMP_00014,London,False,1.1,15
+EMP_00447,Employee 447,employee447@company.com,Operations,Junior,40038,2024-12-20,EMP_00045,London,True,4.0,11
+EMP_00448,Employee 448,employee448@company.com,Sales,Mid-level,51540,2024-01-17,EMP_00037,London,True,1.8,12
+EMP_00449,Employee 449,employee449@company.com,Finance,Junior,31374,2023-04-01,EMP_00017,San Francisco,False,1.9,8
+EMP_00450,Employee 450,employee450@company.com,Engineering,Junior,44407,2022-03-17,EMP_00024,Remote,False,5.0,2
+EMP_00451,Employee 451,employee451@company.com,Marketing,Senior,77895,2023-07-28,EMP_00039,Berlin,False,1.6,0
+EMP_00452,Employee 452,employee452@company.com,Engineering,Junior,33351,2022-07-16,EMP_00010,Remote,False,2.0,17
+EMP_00453,Employee 453,employee453@company.com,Engineering,Mid-level,63159,2022-01-20,EMP_00014,Remote,False,3.5,8
+EMP_00454,Employee 454,employee454@company.com,Operations,Senior,100490,2023-12-22,EMP_00034,London,False,1.9,17
+EMP_00455,Employee 455,employee455@company.com,Sales,Junior,38020,2022-03-29,EMP_00018,London,True,1.9,2
+EMP_00456,Employee 456,employee456@company.com,Operations,Junior,36441,2024-07-25,EMP_00021,Tokyo,True,1.0,6
+EMP_00457,Employee 457,employee457@company.com,Engineering,Junior,48670,2023-01-16,EMP_00005,Remote,False,4.1,11
+EMP_00458,Employee 458,employee458@company.com,Finance,Mid-level,65572,2023-05-22,EMP_00011,Tokyo,True,3.0,12
+EMP_00459,Employee 459,employee459@company.com,Customer Service,Manager,132004,2023-01-17,,Tokyo,False,3.9,17
+EMP_00460,Employee 460,employee460@company.com,HR,Junior,30069,2021-04-07,EMP_00028,Berlin,True,3.9,10
+EMP_00461,Employee 461,employee461@company.com,Operations,Manager,110698,2025-04-13,,Remote,False,4.6,3
+EMP_00462,Employee 462,employee462@company.com,Marketing,Junior,37131,2023-09-19,EMP_00047,San Francisco,False,4.4,10
+EMP_00463,Employee 463,employee463@company.com,Customer Service,Mid-level,74733,2022-12-08,EMP_00004,New York,False,1.2,6
+EMP_00464,Employee 464,employee464@company.com,Sales,Junior,47427,2023-11-23,EMP_00027,Remote,False,1.7,9
+EMP_00465,Employee 465,employee465@company.com,Operations,Mid-level,45044,2023-05-23,EMP_00038,Remote,True,4.4,13
+EMP_00466,Employee 466,employee466@company.com,Sales,Senior,105848,2024-07-02,EMP_00002,London,True,1.3,14
+EMP_00467,Employee 467,employee467@company.com,Customer Service,Mid-level,48317,2021-10-14,EMP_00010,London,False,1.8,19
+EMP_00468,Employee 468,employee468@company.com,Marketing,Manager,133661,2024-06-10,,New York,False,2.4,13
+EMP_00469,Employee 469,employee469@company.com,Customer Service,Intern,24745,2021-07-14,EMP_00035,Tokyo,False,4.8,19
+EMP_00470,Employee 470,employee470@company.com,Marketing,Manager,107251,2025-04-08,,London,True,3.7,2
+EMP_00471,Employee 471,employee471@company.com,Sales,Junior,43835,2023-12-19,EMP_00015,New York,True,4.6,1
+EMP_00472,Employee 472,employee472@company.com,Engineering,Junior,36334,2025-01-15,EMP_00044,New York,True,2.5,4
+EMP_00473,Employee 473,employee473@company.com,Sales,Intern,26046,2022-06-08,EMP_00009,Berlin,True,2.7,16
+EMP_00474,Employee 474,employee474@company.com,Engineering,Manager,104689,2021-04-14,,Remote,False,4.7,13
+EMP_00475,Employee 475,employee475@company.com,Finance,Manager,137713,2023-09-14,,Tokyo,False,3.9,13
+EMP_00476,Employee 476,employee476@company.com,Engineering,Senior,101656,2023-01-24,EMP_00021,New York,False,1.6,15
+EMP_00477,Employee 477,employee477@company.com,Finance,Intern,21915,2023-11-23,EMP_00040,Remote,True,2.4,17
+EMP_00478,Employee 478,employee478@company.com,Operations,Mid-level,46731,2023-02-25,EMP_00045,Berlin,True,1.4,2
+EMP_00479,Employee 479,employee479@company.com,Marketing,Senior,66193,2024-04-02,EMP_00042,Berlin,False,3.1,16
+EMP_00480,Employee 480,employee480@company.com,Engineering,Junior,36868,2023-07-04,EMP_00015,Tokyo,True,1.1,5
+EMP_00481,Employee 481,employee481@company.com,Finance,Senior,65580,2021-11-15,EMP_00044,New York,True,3.6,4
+EMP_00482,Employee 482,employee482@company.com,Finance,Junior,30701,2024-04-30,EMP_00048,San Francisco,True,2.6,1
+EMP_00483,Employee 483,employee483@company.com,Engineering,Intern,26590,2021-01-26,EMP_00026,London,False,2.2,7
+EMP_00484,Employee 484,employee484@company.com,Engineering,Mid-level,71184,2025-08-13,EMP_00027,Remote,False,2.6,3
+EMP_00485,Employee 485,employee485@company.com,Engineering,Intern,26428,2024-11-29,EMP_00018,Tokyo,False,3.2,19
+EMP_00486,Employee 486,employee486@company.com,Customer Service,Senior,80711,2024-10-13,EMP_00023,London,True,2.6,8
+EMP_00487,Employee 487,employee487@company.com,Finance,Manager,106408,2023-03-19,,London,True,1.4,18
+EMP_00488,Employee 488,employee488@company.com,Customer Service,Senior,91028,2022-03-04,EMP_00004,Berlin,True,3.0,13
+EMP_00489,Employee 489,employee489@company.com,Operations,Intern,20702,2022-06-11,EMP_00035,Tokyo,False,3.7,3
+EMP_00490,Employee 490,employee490@company.com,HR,Mid-level,58570,2022-05-04,EMP_00014,Tokyo,True,4.7,12
+EMP_00491,Employee 491,employee491@company.com,Customer Service,Senior,65132,2021-03-19,EMP_00028,San Francisco,False,1.1,16
+EMP_00492,Employee 492,employee492@company.com,Engineering,Senior,89070,2021-09-05,EMP_00008,London,False,2.0,1
+EMP_00493,Employee 493,employee493@company.com,HR,Intern,25664,2020-11-18,EMP_00001,Remote,False,4.2,1
+EMP_00494,Employee 494,employee494@company.com,Sales,Manager,116200,2022-01-23,,San Francisco,False,3.9,20
+EMP_00495,Employee 495,employee495@company.com,Engineering,Intern,27136,2024-09-09,EMP_00037,London,False,4.6,18
+EMP_00496,Employee 496,employee496@company.com,Operations,Intern,28189,2024-04-03,EMP_00043,Remote,True,1.3,2
+EMP_00497,Employee 497,employee497@company.com,HR,Junior,34995,2022-06-07,EMP_00049,San Francisco,False,2.5,9
+EMP_00498,Employee 498,employee498@company.com,Engineering,Senior,119925,2021-11-02,EMP_00039,Berlin,True,3.3,2
+EMP_00499,Employee 499,employee499@company.com,HR,Intern,22797,2023-04-27,EMP_00039,San Francisco,False,4.0,3
+EMP_00500,Employee 500,employee500@company.com,HR,Intern,27904,2023-08-28,EMP_00043,Tokyo,False,2.2,1

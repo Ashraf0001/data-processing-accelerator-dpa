@@ -1,0 +1,19 @@
+employee_id,name,email,department,position,salary,hire_date,manager_id,location,is_active,performance_score,years_experience
+EMP_00010,Employee 10,employee10@company.com,Engineering,Manager,119661,2024-01-24,,Tokyo,true,2.2,9
+EMP_00029,Employee 29,employee29@company.com,Engineering,Senior,116995,2021-11-19,EMP_00004,Berlin,false,2.2,8
+EMP_00063,Employee 63,employee63@company.com,Engineering,Senior,94052,2023-05-16,EMP_00045,Tokyo,false,2.1,18
+EMP_00066,Employee 66,employee66@company.com,Engineering,Manager,129305,2023-01-03,,New York,false,4.3,12
+EMP_00075,Employee 75,employee75@company.com,Engineering,Manager,141714,2023-02-16,,San Francisco,false,3.6,3
+EMP_00104,Employee 104,employee104@company.com,Engineering,Manager,121579,2024-05-25,,Berlin,true,1.8,0
+EMP_00121,Employee 121,employee121@company.com,Engineering,Manager,116866,2025-04-29,,Tokyo,true,3.1,8
+EMP_00151,Employee 151,employee151@company.com,Engineering,Manager,111552,2024-02-12,,Remote,true,4.1,10
+EMP_00169,Employee 169,employee169@company.com,Engineering,Manager,141620,2022-05-23,,London,true,1.6,2
+EMP_00229,Employee 229,employee229@company.com,Engineering,Manager,112237,2025-07-30,,Remote,true,2.2,0
+EMP_00237,Employee 237,employee237@company.com,Engineering,Senior,116984,2022-03-16,EMP_00040,Remote,false,2.8,12
+EMP_00253,Employee 253,employee253@company.com,Engineering,Manager,98480,2025-05-08,,London,false,3.6,7
+EMP_00301,Employee 301,employee301@company.com,Engineering,Senior,89067,2021-06-12,EMP_00033,New York,false,4.1,13
+EMP_00374,Employee 374,employee374@company.com,Engineering,Senior,86568,2024-11-18,EMP_00006,San Francisco,false,4.8,2
+EMP_00474,Employee 474,employee474@company.com,Engineering,Manager,104689,2021-04-14,,Remote,false,4.7,13
+EMP_00476,Employee 476,employee476@company.com,Engineering,Senior,101656,2023-01-24,EMP_00021,New York,false,1.6,15
+EMP_00492,Employee 492,employee492@company.com,Engineering,Senior,89070,2021-09-05,EMP_00008,London,false,2.0,1
+EMP_00498,Employee 498,employee498@company.com,Engineering,Senior,119925,2021-11-02,EMP_00039,Berlin,true,3.3,2
